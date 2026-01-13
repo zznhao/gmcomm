@@ -1,0 +1,223 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* header header heaer*/
+
+.logo {
+    width: 150px;
+    height: auto;
+    font-size: 50px;
+}
+
+.header {
+    background-color: lab(84.12% -23.32 -7.46 / 0.951);
+    display: flex;
+    flex-direction: column;
+}
+
+.first-row, .second-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 150px;
+    gap: 25px;
+    margin: 50px;
+    flex-wrap: wrap;
+}
+
+.dropdown-menus {
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #d3cbbb;
+}
+
+.heading {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #d3cbbb;
+}
+
+.paragraph {
+    font-size: 18px;
+    color: #d3cbbb;
+    width: 500px;
+}
+
+.txt {
+    width: 550px;
+    height: auto;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.button {
+    background-color: #df2241;
+    font-size: 18px;
+    padding: 8px 70px;
+    color: #f9faf8;
+    border: none;
+    border-radius: 5px;
+}
+
+/* header header heaer*/
+
+/* information information information */
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic {
+    width: 150px;
+    height: auto;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.information-heading {
+    font-size: 36px;
+    color: #1f2937;
+    margin: 50px;
+    font-weight: bolder;
+}
+
+.container {
+    display:flex;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+    gap: 50px;
+}
+
+.info-paragraph {
+    width: 190px;
+    height: auto;
+    text-align: center;
+}
+
+/* information information information */
+
+/* quote quote quote*/
+
+.quote-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 1000px;
+}
+
+.quote {
+    font-size:36px;
+    font-style:italic;
+    color: #1f2937;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;    
+    width: 1000px;
+}
+
+.quote-by {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-left: auto;
+}
+
+
+/* quote quote quote*/
+
+/* call to action */
+
+.call-to-action-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-container {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    align-items: center;
+    width:800px;
+    margin: 70px;
+    background-color: #df2241;
+    padding: 50px 75px;
+    border-radius: 10px;
+}
+
+.call-to-action-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.call-to-action-heading {
+    font-size: 25px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.call-to-action-info {
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.call-to-action-button {
+    background-color: #df2241;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 8px 35px;
+}
+
+/* call to action */
+
+/* footer footer footer*/
+
+.footer-container {
+    background-color: #6c645c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    color:#d3cbbb;
+    font-size: 18px;
+    margin: 30px;
+}
+
+/* footer footer footer*/
