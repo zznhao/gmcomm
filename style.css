@@ -13,7 +13,7 @@ body {
 }
 
 .header {
-    background-color: lab(84.12% -23.32 -7.46 / 0.951);
+    background-color: hwb(200 5% 54% / 0.804);
     display: flex;
     flex-direction: column;
 }
@@ -34,9 +34,9 @@ body {
 }
 
 .dropdown-button {
-  background-color: lab(84.12% -23.32 -7.46 / 0.951);
+  background-color: hwb(200 5% 54% / 0.804);
   border: none;
-  color: rgb(20, 16, 36);
+  color: #d3cbbb;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -63,11 +63,6 @@ a {
     font-size: 18px;
     color: #d3cbbb;
     width: 500px;
-}
-
-.txt {
-    width: 550px;
-    height: auto;
 }
 
 .introduction {
@@ -137,6 +132,7 @@ a {
     background-color: #e5e7eb;
     justify-content: center;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 .quote-container {
@@ -166,7 +162,7 @@ a {
 /* footer footer footer*/
 
 .footer-container {
-    background-color: #6c645c;
+    background-color: #322f2b;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -176,7 +172,7 @@ a {
 .copyright {
     color:#d3cbbb;
     font-size: 18px;
-    margin: 30px;
+    margin: 0px;
 }
 
 /* footer footer footer*/
