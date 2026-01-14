@@ -8,9 +8,8 @@ body {
 /* header header heaer*/
 
 .logo {
-    width: 150px;
+    width: 40px;
     height: auto;
-    font-size: 50px;
 }
 
 .header {
@@ -29,10 +28,24 @@ body {
     flex-wrap: wrap;
 }
 
-.dropdown-menus {
+.dropdown-menu {
     display: flex;
-    gap: 30px;
-    font-size: 20px;
+    flex-wrap: wrap;
+}
+
+.dropdown-button {
+  background-color: lab(84.12% -23.32 -7.46 / 0.951);
+  border: none;
+  color: rgb(20, 16, 36);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dropdown-menu .dropdown-button:hover {
+  background-color: dodgerblue;
 }
 
 a {
