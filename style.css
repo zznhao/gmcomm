@@ -8,14 +8,15 @@ body {
 /* header header heaer*/
 
 .logo {
-    width: 40px;
+    width: auto;
     height: auto;
 }
 
 .header {
-    background-color: hwb(200 5% 54% / 0.804);
+    background-color: lab(79.17% -7.19 -11.51 / 0.804);
     display: flex;
     flex-direction: column;
+    height: 30px;
 }
 
 .first-row, .second-row {
@@ -28,25 +29,69 @@ body {
     flex-wrap: wrap;
 }
 
+
+
+/*drop down menu code*/
 .dropdown-menu {
-    display: flex;
-    flex-wrap: wrap;
+  overflow: hidden;
+  background-color: #333;
 }
 
-.dropdown-button {
-  background-color: hwb(200 5% 54% / 0.804);
-  border: none;
-  color: #d3cbbb;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
+.dropdown-menu a {
+  float: left;
   font-size: 16px;
-  cursor: pointer;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.dropdown-menu .dropdown-button:hover {
-  background-color: dodgerblue;
+.dropdown {
+  float: left;
+  overflow: hidden;
 }
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-menu a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(15, 94, 197);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*drop down menu code*/
 
 a {
     text-decoration: none;
@@ -132,7 +177,7 @@ a {
     background-color: #e5e7eb;
     justify-content: center;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .quote-container {
@@ -172,7 +217,7 @@ a {
 .copyright {
     color:#d3cbbb;
     font-size: 18px;
-    margin: 0px;
+    margin: 10px;
 }
 
 /* footer footer footer*/
